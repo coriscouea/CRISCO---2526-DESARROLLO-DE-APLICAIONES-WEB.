@@ -1,4 +1,4 @@
-/* 1. SOBRESCRITURA DE BOOTSTRAP */
+/* Semana 4 - styles.css */
 
 /* Cambiar color principal de los botones */
 .btn-primary {
@@ -7,6 +7,7 @@
     transition: all 0.9s ease; /* Transición suave para todos los cambios */
 }
 
+/* Estilo para el título principal */
 #titulo_1 { 
     color: goldenrod; /* Cambia el color del título principal a naranja */
     font-weight: bold;
@@ -15,6 +16,7 @@
 
 }
 
+/* Estilo para el título de las tarjetas */
 .card-title {
     color: darkorange; /* Cambia el color del título de las tarjetas a naranja oscuro */
     font-weight: bold;
@@ -23,17 +25,22 @@
 
 }
 
+/* Estilo para el cuerpo de las tarjetas */
 .card-body {
     background-color: #eeebe8; /* Fondo ligeramente naranja para el cuerpo de las tarjetas */
     flex: 1 1 auto; /* Permite que el cuerpo de la tarjeta crezca para llenar el espacio */
     display: flex;
     flex-direction: column;
 }
+
+/* Estilo para el texto de las tarjetas */
 .card-text {
     color: #191e05; /* Cambia el color del texto de las tarjetas a un tono naranja */
     text-align: justify; /* Justifica el texto para mejor legibilidad */
 }
-    /* Estado Hover del botón */
+
+/* 1. ESTILOS PARA BOTONES */
+/* Animación al pasar el mouse sobre los botones */
 .btn-primary:hover {
     background-color: #e64a19;
     border-color: #19e694;
@@ -49,7 +56,6 @@
     display: flex;
     flex-direction: column;
 }
-
 
 /* Animación al pasar el mouse sobre las tarjetas */
 .card:hover {
@@ -71,6 +77,7 @@
 
 }
 
+/* Animación al pasar el mouse sobre las imágenes */
 .card:hover .card-img-top {
     filter: grayscale(0%); /* La imagen cobra color total al hacer hover */
 }

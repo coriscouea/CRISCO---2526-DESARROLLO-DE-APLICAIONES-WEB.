@@ -25,8 +25,8 @@
         </button>
 
         <!-- Menú de navegación -->
-        <div class="collapse navbar-collapse" id="menu">
-            <ul class="navbar-nav ms-auto">
+        <div class="collapse navbar-collapse" id="menu"><!-- Menú colapsable -->
+            <ul class="navbar-nav ms-auto"> <!-- Lista de elementos de navegación alineados a la derecha -->
                 <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li> <!-- Enlace activo -->
                 <li class="nav-item"><a class="nav-link active" href="#">Semestres</a></li> <!-- Enlace activo -->
                 <li class="nav-item"><a class="nav-link" href="#">Materias</a></li> <!-- Enlace -->
@@ -37,7 +37,7 @@
 </nav>
 
 <!--Encabezado-->
-<header class="container text-center my-4">
+<header class="container text-center my-4"> <!-- Contenedor centrado con margen vertical -->
     <h1 id="titulo_1">BIENVENIDOS A LA TAREA DE LA SEMANA 4</h1> <!-- Título principal centrado con margen vertical -->
 </header>   
 
@@ -86,18 +86,17 @@
             <h2 class="mb-4">Contáctame</h2> <!-- Título secundario con margen inferior -->
 
             <form>
-                <div class="form-group mb-3">
+                <div class="form-group mb-3"> <!-- Grupo de formulario con margen inferior -->
                     <label for="nombre" class="form-label">Nombre:</label> <!-- Etiqueta para el campo de nombre -->
-                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre"> <!-- Campo de entrada de texto -->
-                <div class="d-none d-md-block">Visible solo en pantallas medianas y grandes</div>      
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre"> <!-- Campo de entrada de texto -->  
                 </div>
 
-                <div class="form-group mb-3">
+                <div class="form-group mb-3"> <!-- Grupo de formulario con margen inferior -->
                     <label for="email" class="form-label">Email:</label> <!-- Etiqueta para el campo de correo electrónico -->
                     <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico"> <!-- Campo de entrada de correo electrónico -->
                 </div>
                 
-                <div class="form-group mb-3">
+                <div class="form-group mb-3"> <!-- Grupo de formulario con margen inferior -->
                     <label for="comentarios" class="form-label">Comentarios:</label> <!-- Etiqueta para el campo de mensaje -->
                     <textarea class="form-control" id="comentarios" rows="4" placeholder="Escribe tu mensaje aquí"></textarea> <!-- Área de texto para el mensaje -->
                 </div>
@@ -108,13 +107,13 @@
     </div>
 </section>
 
-<section class="container my-5 text-center">
+<section class="container my-5 text-center"> <!-- Contenedor centrado con margen vertical -->
     <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#contenidoOculto" aria-expanded="false" aria-controls="contenidoOculto"> <!-- Botón para mostrar/ocultar contenido -->
         Mostrar más información
     </button>
 
     <div class="collapse mt-3" id="contenidoOculto"> <!-- Contenido oculto que se muestra al hacer clic en el botón -->
-        <div class="card card-body shadow-sm">
+        <div class="card card-body shadow-sm"> <!-- Tarjeta con sombra -->
             <p>¡Felicidades! Has activado la transición de Bootstrap. Esta sección utiliza la clase <strong>collapse</strong> para ocultar el contenido inicialmente y mostrarlo con una animación suave al hacer clic en el botón superior.</p>
             <p>Es una excelente forma de ahorrar espacio en tu diseño responsivo.</p>
         </div>
@@ -137,7 +136,7 @@
         <a href="#" class="btn btn-outline-info btn-sm mx-1">Twitter</a> <!-- Botón de Twitter -->
         <a href="#" class="btn btn-outline-danger btn-sm mx-1">Instagram</a> <!-- Botón de Instagram -->
     </div>
-    <p class="text-muted small">
+    <p class="text-muted small"> <!-- Texto de derechos de autor -->
         &copy; 2024 Mi Página Web. Todos los derechos reservados.</p> <!-- Derechos de autor -->
     </div>
 </footer>   
