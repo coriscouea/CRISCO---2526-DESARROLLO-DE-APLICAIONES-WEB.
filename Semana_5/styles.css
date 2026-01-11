@@ -1,0 +1,97 @@
+/* Semana 5 - styles.css */
+
+body { /* Estilos generales */
+    font-family: Arial, sans-serif;/* Fuente legible */
+    margin: 0; /* Sin margen */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f4f4f4; /* Color de fondo suave */
+}
+
+header { /* Estilos del encabezado */
+    text-align: center; /* Centrar el texto */
+    margin-bottom: 20px;
+    background-color: #d3d7da;
+    background-size: 10% 10%; 
+    padding: 10px;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    border-radius: 8px;
+}
+
+.container { /* Contenedor principal */
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section { /* Estilos de las secciones */
+    margin-bottom: 20px;
+}
+
+label { /* Estilos de las etiquetas */
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="url"] { /* Estilos del campo de entrada */
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.BOTONES { /* Estilos del contenedor de botones */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#mensaje { /* Estilos del mensaje de estado */
+    margin-top: 10px;
+    font-weight: bold;
+    color: turquoise;
+}
+
+button { /* Estilos de los botones */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {  /* Efecto hover en los botones */
+    background-color: #0056b3;
+}
+
+.galeria { /* Estilos de la galería de imágenes */
+    display: flex; /* Usar flexbox para el diseño_ solicitado en la tarea */
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.imagen-galeria {   /* Estilos de las imágenes en la galería */
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.imagen-galeria.seleccionada {  /* Estilos de la imagen seleccionada */
+    border-color: #007bff;
+}
+
+footer { /* Estilos del pie de página */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}

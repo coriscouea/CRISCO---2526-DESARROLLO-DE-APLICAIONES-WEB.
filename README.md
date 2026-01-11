@@ -1,5 +1,5 @@
-# Mi Página Web - Tarea Semana 4
+# Mi Página Web - Tarea Semana 5
 
 📌 Descripción
-Este proyecto corresponde a la **Tarea de la Semana 4** de la asignatura de Desarrollo de Aplicaciones Web.  
-Consiste en la creación de una página web moderna, estilizada y completamente responsiva, utilizando **HTML5, CSS3 avanzado y Bootstrap 5**.
+Este proyecto corresponde a la **Tarea de la Semana 5** de la asignatura de Desarrollo de Aplicaciones Web.  
+Fundamentos de JavaScript para manipular el DOM y manejar eventos creando una aplicación web dinámica **HTML5, CSS y JavaScript**.
