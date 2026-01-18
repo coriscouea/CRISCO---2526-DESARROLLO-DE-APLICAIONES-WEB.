@@ -1,5 +1,5 @@
-# Mi Página Web - Tarea Semana 5
+# Mi Página Web - Tarea Semana 6
 
 📌 Descripción
-Este proyecto corresponde a la **Tarea de la Semana 5** de la asignatura de Desarrollo de Aplicaciones Web.  
-Fundamentos de JavaScript para manipular el DOM y manejar eventos creando una aplicación web dinámica **HTML5, CSS y JavaScript**.
+Este proyecto corresponde a la **Tarea de la Semana 6** de la asignatura de Desarrollo de Aplicaciones Web.  
+Validaciones dinámicas y manejo básico de formularios **HTML5, CSS y JavaScript**.

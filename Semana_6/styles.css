@@ -1,0 +1,102 @@
+/* Semana 6 - styles.css */
+
+body { /* Estilos generales */
+    font-family: system-ui ; /* Fuente legible */
+    margin: 0; /* Sin margen */
+    padding: 25px; /* Espaciado interno */
+    background-color: rgb(225, 231, 230); /* Color de fondo suave */
+    
+}
+
+h2 { /* Estilo del título */
+    text-align: center;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 10%;
+    text-decoration: underline;
+
+}
+#mensajeError { /* Estilo de los mensajes de error */
+    font-family: Verdana, sans-serif;
+    color: red;
+    font-size: 0.9em;
+    
+}    
+.container { /* Contenedor principal */
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+section { /* Estilos de las secciones */
+    margin-bottom: 20px;
+    
+}
+label { /* Estilos de las etiquetas */
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="number"] { /* Estilos del campo de entrada */
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input.valid { /* Estilos para entradas válidas */
+    border: 2px solid green;
+    background-color: #e8f5e8;
+}
+
+input.invalid { /* Estilos para entradas inválidas */
+    border: 2px solid red;
+    background-color: #ffeaea;
+}
+
+button { /* Estilos de los botones */
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"] { /* Estilos del botón de enviar */
+    background-color: #4CAF50;
+    color: rgb(28, 24, 24);
+}
+
+button[type="submit"]:disabled { /* Estilos del botón de enviar deshabilitado */
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+button[type="reset"] { /* Estilos del botón de reiniciar */
+    background-color: #f44336;
+    color: rgb(18, 14, 14);
+    flood-color: rgba(6, 6, 6, 0.987);
+
+}
+
+label { /* Estilos de las etiquetas con iconos */
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+footer { /* Estilos del pie de página */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Fin de styles.css */

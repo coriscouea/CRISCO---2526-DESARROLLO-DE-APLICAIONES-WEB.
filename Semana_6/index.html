@@ -1,0 +1,61 @@
+<!DOCTYPE html> <!-- Declaración del tipo de documento -->
+<html lang="es"> <!-- Idioma español -->
+<head>
+    <meta charset="UTF-8"> <!-- Codificación de caracteres UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración de la vista para dispositivos móviles -->
+    <title>Formulario Interactivo</title> <!-- Título de la página -->
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo de estilos CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> <!-- Enlace a Font Awesome para iconos -->
+</head>
+<body>
+
+<main class="container"> <!-- Contenedor principal -->
+
+    <section> <!-- Sección de formulario -->  
+        <h2>Formulario Interactivo</h2>  
+            <form id="FormularioInteractivo"> <!-- Formulario interactivo unificado -->  
+                <label for="nombre">
+                    <i class="fa-solid fa-user"></i> Nombre:
+                </label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Ej: Carlos Contreras"> <!-- Campo de texto obligatorio -->  
+                <span id="mensajeError" style="color:red; display:none;">El nombre debe tener al menos 3 caracteres.</span>   
+
+                <br><br> <!-- Saltos de línea -->
+
+                <label for="correo"><i class="fa-solid fa-envelope"></i> Correo:</label> <!-- Etiqueta para el campo correo -->  
+                <input type="email" id="correo" name="correo" required placeholder="Ej:Cesar@gmail.com"> <!-- Campo de correo obligatorio -->  
+                <span id="mensajeErrorCorreo" style="color:red; display:none;">Por favor, ingrese un correo válido.</span>   
+
+                <br><br> <!-- Saltos de línea -->
+
+                <label for="contraseña"><i class="fa-solid fa-lock"></i> Contraseña:</label> <!-- Etiqueta para el campo contraseña -->  
+                <input type="password" id="contraseña" name="contraseña" required placeholder="Ingresa tu contraseña"> <!-- Campo de contraseña obligatorio -->  
+                <span id="mensajeErrorContraseña" style="color:red; display:none;">La contraseña debe tener al menos 8 caracteres, incluyendo un número y un carácter especial.</span>   
+
+                <br><br> <!-- Saltos de línea -->
+
+                <label for="confirmarContraseña"><i class="fa-solid fa-lock"></i> Confirmar Contraseña:</label> <!-- Etiqueta para el campo confirmar contraseña -->  
+                <input type="password" id="confirmarContraseña" name="confirmarContraseña" required placeholder="Repite tu contraseña"> <!-- Campo de confirmar contraseña obligatorio -->  
+                <span id="mensajeErrorConfirmarContraseña" style="color:red; display:none;">Las contraseñas no coinciden.</span>   
+
+                <br><br> <!-- Saltos de línea -->
+
+                <label for="edad"><i class="fa-solid fa-calendar"></i> Edad:</label>
+                <input type="number" id="edad" name="edad" required placeholder="Mayor de edad"> <!-- Campo de número obligatorio -->  
+                <span id="mensajeErrorEdad" style="color:red; display:none;">La edad debe ser mayor o igual a 18 años.</span>   
+
+                <br><br> <!-- Saltos de línea -->
+                
+                <button type="submit" id="submitBtn" disabled>Enviar</button> <!-- Botón de envío deshabilitado -->
+                <button type="reset">Reiniciar</button> <!-- Botón de reinicio -->
+            </form>
+
+    </section> 
+</main>
+<script src="script.js"></script> <!-- Enlace al archivo de script JavaScript -->
+
+
+</body>
+<footer> <!-- Pie de página -->
+    <p>&copy; 2026 César. Todos los derechos reservados.</p> <!-- Derechos de autor -->
+</html>
