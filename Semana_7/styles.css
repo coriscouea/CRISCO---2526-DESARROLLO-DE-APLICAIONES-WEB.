@@ -1,0 +1,30 @@
+/* Semana_7 - styles.css */
+
+body { /* Estilos generales */
+    font-family: Arial, sans-serif;
+    background-color: #e6e2e2;
+    padding: 20px;
+    margin: 0;
+}
+h1 { /* Estilo del título principal */
+    text-align: center;
+    color: #222;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+#productList { /* Estilo de la lista de productos */
+    list-style-type: none;
+    padding: 0;
+
+}
+button { /* Estilo del botón */
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+/*final Semana_7 - styles.css */
